@@ -1,0 +1,97 @@
+html {
+  background-color: rgba(240, 248, 255, 0.786);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0 250px;
+  padding: 0;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  font-size: 1.3rem;
+}
+
+img {
+  width: 350px;
+  padding: 30px;
+  padding-top: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li {
+  padding: 30px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.about-container {
+  display: flex;
+}
+
+#aboutme p {
+  padding-right: 30px;
+}
+
+section h2,
+h1 {
+  padding: 30px;
+}
+
+#skills ul {
+  list-style-type: circle;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+figure {
+  padding-bottom: 30px;
+}
+
+figure img {
+  display: none;
+}
+
+a {
+  color: black;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  align-content: center;
+  font-weight: bold;
+}
+
+section {
+  border-bottom: 1px solid black;
+}
+
+.contact-container {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#contactme a {
+  font-weight: bold;
+}
