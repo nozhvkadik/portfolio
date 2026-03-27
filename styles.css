@@ -18,7 +18,7 @@ footer {
 }
 
 .about-container img {
-  width: 350px;
+  max-width: 350px;
   padding: 30px;
   padding-top: 0;
 }
@@ -113,4 +113,105 @@ a:hover {
 
 nav li:active {
   transform: scale(0.9);
+}
+
+@media only screen and (max-width: 1380px) {
+  body {
+    font-size: 1.1rem;
+    margin: 0 150px;
+  }
+
+  nav ul {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  body {
+    font-size: 0.9rem;
+    margin: 0 99px;
+  }
+
+  nav ul {
+    font-size: 1.1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .about-container img {
+    max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 845px) {
+  body {
+    font-size: 0.8rem;
+    margin: 0 50px;
+  }
+
+  nav ul {
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  .about-container img {
+    max-width: 180px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  body {
+    font-size: 0.7rem;
+    margin: 0 30px;
+  }
+
+  nav ul {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 591px) {
+  body {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container p {
+    padding: 20px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  header {
+    flex-direction: column;
+  }
 }
